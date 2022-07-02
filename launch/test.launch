@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robot_control" name="node1" type="buzzer" required="true" />
+</launch>

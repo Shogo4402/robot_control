@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="robot_control" name="writin_speed_node" type="motor" required="true" />
+  <node pkg="robot_control" name="control_node" type="main" required="true" />
+</launch>
